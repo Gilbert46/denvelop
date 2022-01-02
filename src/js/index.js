@@ -7,11 +7,11 @@ function surt() {
 }
 function enrerre(){
     if (control > 1) control -= 1;
-    else control = 20;
+    else control = 25;
     playgame(control);
 }
 function endavant(){
-    if (control < 20) control += 1;
+    if (control < 25) control += 1;
     else control = 1;
     playgame(control);
 }
@@ -70,6 +70,16 @@ function playgame(game) {
         if (game == 19) contanidor = '<div class = "col-md-1"></div><div class = "col-md-10"><div id="game">'+butons+'<iframe id="capt" src="https://simmer.io/@Equalitzator/soldier2" width=100% height="800" frameborder="0" style="border:0" allowfullscreen> </iframe></div></div>';
 
         if (game == 20) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/survival" + window3;
+
+        if (game == 21) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/city2/" + window3;
+
+        if (game == 22) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/objectivepiece" + window3;
+
+        if (game == 23) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/tower" + window3;
+
+        if (game == 24) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/fantasy-castle" + window3;
+
+        if (game == 25) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/battlearches" + window3;
 
         document.getElementById("gameNew").innerHTML = contanidor;
 }
