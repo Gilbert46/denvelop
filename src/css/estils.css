@@ -1,0 +1,71 @@
+body {
+    background: #ebe3bb;
+    font-family: 'Ubuntu', sans-serif;
+    padding: .1%;
+    margin: .1%;
+}
+h1{
+    text-align: center;
+    padding-top: 1%;
+    font-size: 2rem;
+}
+p {
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 1.2rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+header{
+    background: gray;
+    color: whitesmoke;
+    font-size: 150%;
+}
+#dis{
+    margin-right: 2%;
+}
+#dis:hover{
+    background: #ffffff;
+}
+
+#work{
+    border: grey solid 5px;
+    background: whitesmoke;
+    box-shadow: 5px 5px 15px rgba(1,1,1,0.75);
+}
+#img{
+    border: whitesmoke solid 5px;
+    background: whitesmoke;
+    box-shadow: 5px 5px 15px rgba(1,1,1,0.75);
+ 
+}
+#img:hover{
+    border: #771111 solid 5px;
+    background: #771111;
+}
+#img1 {
+    width: 90%;   
+}
+#botons{
+    text-align: right;
+}
+#sor, #con1, #con2 {
+    display:inline-block;
+    margin-left : 0.5%;
+    border: whitesmoke solid 5px;
+}
+#sor:hover, #con1:hover, #con2:hover {
+    border: #000000 solid 5px;
+}
+section{
+    background: #ebe3bb;
+    padding: 1%;
+}
+
+@media only screen and (min-width: 980px) {
+    h3{font-size: 1.65rem;}
+    h1{font-size: 3rem;}
+    p{font-size:1.5rem;}
+    
+}

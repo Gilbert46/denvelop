@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repositori pagines webs</title>
+    <!-- BootStrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+            crossorigin="anonymous">
+    <!-- CSS Costum -->
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/estils.css">
+</head>
+<body>
+    <header>
+        <div class = "container">
+            <div class = "row">
+                <div clas = "col-md-12">
+                    <h1>REPOSITORI PÀGINES WEBS</h1>
+                    <p>Tens a la de disposició per visualitzar-los i interectuar amb ells, una serie de treballs de disseny i programació realitzats i classificats per tenir-los en una col·lecció més amplia.</p>                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div  class="row" id="visualWork" hidden=""></div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/war.png"  alt="war" onclick = "clickWeb(1)"/></div>
+                    <h3>guerra dels 100 anys</h3>
+                </div>             
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/fonaments.png" alt="fonaments" onclick = "clickWeb(2)" /></div>
+                    <h3>disseny gràfic</h3>
+                </div>         
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/acad.png" alt="acad" onclick = "clickWeb(3)"/></div>
+                    <h3>treballs AutoCAD</h3>
+                </div>
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/repo.png" alt="repo" onclick = "clickWeb(4)"></div>
+                    <h3>treballs progamació</h3>
+                </div> 
+            </div>  
+            <div class="row">
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/game.png"  alt="game" onclick = "clickWeb(5)"/></div>
+                    <h3>video jocs</h3>
+                </div>             
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/map.png" alt="map" onclick = "clickWeb(6)" /></div>
+                    <h3>mapes interectius</h3>
+                </div>         
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/book.png" alt="book" onclick = "clickWeb(7)"/></div>
+                    <h3>E Comnerç</h3>
+                </div>
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/slotmachine.png" alt="slot" onclick = "clickWeb(8)"></div>
+                    <h3>traga perres</h3>
+                </div> 
+            </div> 
+            <div class="row">
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/vacances.png"  alt="vacances" onclick = "clickWeb(9)"/></div>
+                    <h3>vacances</h3>
+                </div>             
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/hero.png" alt="hero" onclick = "clickWeb(10)" /></div>
+                    <h3>super herois</h3>
+                </div>         
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/formu.png" alt="formu" onclick = "clickWeb(11)"/></div>
+                    <h3>formulari</h3>
+                </div>
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/puzzle.png" alt="puzzle" onclick = "clickWeb(12)"></div>
+                    <h3>trecaclosca</h3>
+                </div> 
+            </div> 
+            <div class="row">
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/time.png"  alt="time" onclick = "clickWeb(13)"/></div>
+                    <h3>date-time</h3>
+                </div>             
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/note.png" alt="notu" onclick = "clickWeb(14)" /></div>
+                    <h3>note school</h3>
+                </div>         
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/film.png" alt="film" onclick = "clickWeb(15)"/></div>
+                    <h3>pel·licula</h3>
+                </div>
+                <div class = "col-sm-3 text-center">
+                    <div id = "img"><img id="img1" src="./src/img/web/mazingerzero.png" alt="slot" onclick = "clickWeb(16)"></div>
+                    <h3>mazinger z</h3>
+                </div> 
+            </div>        
+        </div>
+    </section>
+    <script src="./src/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+</body>
+</html>
